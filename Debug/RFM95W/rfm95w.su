@@ -1,0 +1,12 @@
+../RFM95W/rfm95w.cpp:10:1:LoRaClass::LoRaClass(SPI_HandleTypeDef*, RTC_HandleTypeDef*, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t)	24	static
+../RFM95W/rfm95w.cpp:31:1:LoRaClass::~LoRaClass()	16	static
+../RFM95W/rfm95w.cpp:45:6:void LoRaClass::run(uint32_t, RFM95W_Bw, RFM95W_SpreadingFactor)	32	static
+../RFM95W/rfm95w.cpp:214:6:void LoRaClass::run_DMA(uint32_t, RFM95W_Bw, RFM95W_SpreadingFactor)	32	static
+../RFM95W/rfm95w.cpp:435:6:void LoRaClass::txRxCpltCallback()	16	static
+../RFM95W/rfm95w.cpp:439:6:void LoRaClass::irqDoneCallback()	16	static
+../RFM95W/rfm95w.cpp:444:6:void LoRaClass::setStage(uint8_t)	16	static
+../RFM95W/rfm95w.cpp:448:6:void LoRaClass::setData(uint8_t)	16	static
+../RFM95W/rfm95w.cpp:452:6:void LoRaClass::setVolData(uint16_t)	16	static
+../RFM95W/rfm95w.cpp:456:9:uint8_t LoRaClass::getStage()	16	static
+../RFM95W/rfm95w.cpp:460:6:void LoRaClass::clearFlags()	16	static
+../RFM95W/rfm95w.cpp:471:9:uint8_t LoRaClass::checkCrcXOR(uint8_t*, uint8_t)	32	static
